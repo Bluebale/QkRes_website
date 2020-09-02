@@ -152,7 +152,11 @@ img.size-2 {
   margin: 20px;
   border-radius: 20px;
 }
- img.size-3 {
+img.size-3 {
+  width: 400px;
+  margin: auto;
+}
+ img.size-4 {
    width: auto;
    height: 20vh;
    margin: auto;
@@ -169,10 +173,9 @@ img.size-2 {
   width:70%;
   height:70%;
 }
-.normal {
-  padding: 10px;
-}
+
 .btn {
+  padding: 10px;
   background-color: transparent;
   color: white;
   border-radius: 20px;
