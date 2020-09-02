@@ -62,7 +62,6 @@ section {
   width: 50%;
   background-color: rgb(247,200,64);
   color: black;
-  font-size: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,31 +153,39 @@ img.size-2 {
   border-radius: 20px;
 }
  img.size-3 {
-   width: 30%;
-   height: auto;
+   width: auto;
+   height: 20vh;
    margin: auto;
+   padding: 20px;
 }
-
+#linkedin {
+  width: 120px;
+  height: auto;
+}
+#fb:hover, #linkedin:hover{
+  filter: opacity(0.6);
+}
 .vid {
   width:70%;
   height:70%;
 }
 .normal {
   padding: 10px;
-  border-radius: 10px;
 }
 .btn {
   background-color: transparent;
   color: white;
-  border: 2px solid white;
   border-radius: 20px;
-  transition: all 0.5s ease;
 }
 .btn:hover {
-  background-color: white;
-  color: black;
+  animation: bg-clr 0.5s forwards;
 }
-
+@keyframes bg-clr {
+  100% {
+    background-color: white;
+    color: rgb(0,77,162);
+   }
+}
 #fourth {
   background-color: #0072B5;
   color: white;
